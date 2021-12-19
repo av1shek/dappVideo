@@ -37,7 +37,7 @@ class App extends Component {
     // Network ID
     const networkId = await web3.eth.net.getId()
     console.log("debug --", networkId)
-    const networkData = DVideo.networks[networkId]
+    // const networkData = DVideo.networks[networkId]
     // if(networkData) {
     if(true) {
       let tempabi = [
